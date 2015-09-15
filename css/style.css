@@ -1,0 +1,27 @@
+﻿*{
+margin: 	0px;
+padding:	0px;
+text-decoration:	none;
+list-style: 	none;
+}
+
+.forms{
+width:	600px;
+padding:	15px;
+background-color: #CDBA96;
+font-family: "georgia";
+border-radius:	0px;
+
+}
+
+.forms fieldset {
+border-radius:	3px;
+margin:	5px;
+padding:	5px;
+color:	#7d26cd;
+}
+
+.forms  input{
+margin:	5px;
+color:	#7d26cd;
+}
