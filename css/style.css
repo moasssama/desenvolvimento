@@ -4,8 +4,13 @@ padding:	0px;
 text-decoration:	none;
 list-style: 	none;
 box-sizing:	border-box;
+/* */
 }
 
+label {
+    display: block;
+    margin: 10px 0 0 0;
+}
 
 
 
@@ -15,7 +20,7 @@ background:	#EEE;
 
 
 .forms{
-width:	400px;
+width:	600px;
 padding:	10px 10px 5px 10px;
 background-color: #63b8ff;
 font-family: "georgia";
@@ -31,7 +36,7 @@ padding:	0px;
 }
 
 table th{
-text-shadow:	16px;
+
 color:		 #cae1ff;
 background-color: #0000ff;
 text-align:	center;
@@ -51,10 +56,24 @@ border-radius:	3px;
 margin:	10px;
 padding:	5px;
 
+
 }
 
-.forms  input{
+.forms  input {
 margin:	5px;
 color:	#0000ff
 }
 
+input[type=submit]{
+	float:	right;
+}
+
+input[type=text],
+textarea {
+
+    width: 100%;
+    border: 1px solid #333;
+    padding: 3px;
+    border-radius: 5px;
+	max-width:	100%;
+}
