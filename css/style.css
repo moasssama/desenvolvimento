@@ -55,8 +55,10 @@ text-align:	center;
 border-radius:	3px;
 margin:	10px;
 padding:	5px;
+
 }
 
+.forms  input {
 .forms  input {
 margin:	5px;
 color:	#0000ff
@@ -68,9 +70,16 @@ input[type=submit]{
 
 input[type=text],
 textarea {
+input[type=submit]{
+	float:	right;
+}
+
+input[type=text],
+textarea {
     width: 100%;
     border: 1px solid #333;
     padding: 3px;
     border-radius: 5px;
 	max-width:	100%;
+}
 }
