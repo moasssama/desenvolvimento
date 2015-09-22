@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿
+	
+<!DOCTYPE html>
 <html>
 <head>
 	 <link rel="stylesheet" href="css/style.css">
@@ -52,15 +54,17 @@
 				<?php	foreach ($lista_tarefas as $tarefas) :?>
 				<tr>
 					 <td> <?php	echo $tarefas['nome'];	?></td>
-					 <td> <?php	echo $tarefas['descricao'];?></td>
+					 <td> <?php	echo $tarefas['descricao'];	?></td>
 					 <td> <?php	echo $tarefas['prazo'];	?></td>
 					 <td><?php	echo $tarefas['prioridade'];?></td>
 					 <td><?php	echo $tarefas['concluida'];?></td>
-				 </tr>
+					 
+					 
+				</tr>
 				<?php endforeach?>
 			</table>
 		</fieldset>
 	</div><!---->
-// // /
+<!---->
 </body>
 </html>

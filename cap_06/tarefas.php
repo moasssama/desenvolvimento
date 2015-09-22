@@ -38,4 +38,4 @@ if (isset($_SESSION['lista_tarefas'])) {
 	
 include "template.php";
 ?>
-	<!--  -->
+	
