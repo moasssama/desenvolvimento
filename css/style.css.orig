@@ -55,6 +55,11 @@ text-align:	center;
 border-radius:	3px;
 margin:	10px;
 padding:	5px;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> e2d9c8812d8746b1e00c551e445adf3fddd34c78
 }
 
 .forms  input {
@@ -68,6 +73,10 @@ input[type=submit]{
 
 input[type=text],
 textarea {
+<<<<<<< HEAD
+=======
+
+>>>>>>> e2d9c8812d8746b1e00c551e445adf3fddd34c78
     width: 100%;
     border: 1px solid #333;
     padding: 3px;

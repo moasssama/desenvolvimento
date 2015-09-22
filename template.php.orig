@@ -1,6 +1,10 @@
+<<<<<<< HEAD
+﻿<!DOCTYPE html>
+=======
 ﻿
 	
 <!DOCTYPE html>
+>>>>>>> e2d9c8812d8746b1e00c551e445adf3fddd34c78
 <html>
 <head>
 	 <link rel="stylesheet" href="css/style.css">
@@ -47,13 +51,25 @@
 		<fieldset>
 			<legend>Tarefas</legend>
 			<table>
+<<<<<<< HEAD
 				<caption>Tarefas</caption>
 				<tr>
 					<td colspan="5">Tarefas</td>
+=======
+				<tr>
+					<th>Tarefas</th>
+>>>>>>> e2d9c8812d8746b1e00c551e445adf3fddd34c78
 				</tr>
 				<?php	foreach ($lista_tarefas as $tarefas) :?>
 				<tr>
 					 <td> <?php	echo $tarefas['nome'];	?></td>
+<<<<<<< HEAD
+					 <td> <?php	echo $tarefas['descricao'];?></td>
+					 <td> <?php	echo $tarefas['prazo'];	?></td>
+					 <td><?php	echo $tarefas['prioridade'];?></td>
+					 <td><?php	echo $tarefas['concluida'];?></td>
+				 </tr>
+=======
 					 <td> <?php	echo $tarefas['descricao'];	?></td>
 					 <td> <?php	echo $tarefas['prazo'];	?></td>
 					 <td><?php	echo $tarefas['prioridade'];?></td>
@@ -61,10 +77,15 @@
 					 
 					 
 				</tr>
+>>>>>>> e2d9c8812d8746b1e00c551e445adf3fddd34c78
 				<?php endforeach?>
 			</table>
 		</fieldset>
 	</div><!---->
+<<<<<<< HEAD
+// // /
+=======
 <!---->
+>>>>>>> e2d9c8812d8746b1e00c551e445adf3fddd34c78
 </body>
 </html>

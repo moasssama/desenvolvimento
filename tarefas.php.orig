@@ -38,4 +38,8 @@ if (isset($_SESSION['lista_tarefas'])) {
 	
 include "template.php";
 ?>
+<<<<<<< HEAD
+	<!--  -->
+=======
 	
+>>>>>>> e2d9c8812d8746b1e00c551e445adf3fddd34c78
