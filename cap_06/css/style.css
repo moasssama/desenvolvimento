@@ -1,0 +1,113 @@
+﻿*{
+margin: 	0px;
+padding:	0px;
+text-decoration:	none;
+list-style: 	none;
+box-sizing:	border-box;
+
+/* */
+}
+
+label {
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+#outra{
+box-shadow: 5xp 5px 5px rgba(0,0,0,1);
+}
+
+table tbody tr:nth-child(odd) {
+background:	#EEE;
+}
+
+ tr:{
+	border: 1px solid red;
+}
+.forms{
+width:	600px;
+padding:	10px 10px 5px 10px;
+background-color: #63b8ff;
+font-family: "georgia";
+border-radius:	5px;
+color:	#0000ff;
+margin:	auto;
+box-shadow: 0px 0px 6px rgba(0,0,0,0.5); 
+}
+ table,  td, th { 
+
+	border-collapse: collapse; 
+}
+
+.forms input[type=submit]{
+clear:	both;
+float: right;
+color: green;
+}
+
+
+table {
+width: 		100%;
+margin:		0px;
+padding:	0px;
+}
+
+table th{
+
+color:		 #cae1ff;
+background-color: #0000ff;
+text-align:	center;
+border-radius:	0px;
+}
+
+table td{
+margin:	140px 500px 50px 5px;
+padding: 0px 0px 0px 20px;
+text-align:	center;
+}
+
+
+.forms fieldset {
+
+border-radius:	3px;
+margin:	10px;
+padding:	5px;
+border-color:		#7fff00;
+
+}
+
+.forms legend {
+font-size:30px;
+color:	#7fff00;
+text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+.forms  input {
+color:	#0000ff
+}
+
+#prioridade{
+	width:	300px;
+	
+}
+
+input[type=submit]{
+	float:	right;
+}
+
+
+input[type=text],
+textarea {
+    width: 100%;
+    border: 1px solid #333;
+    padding: 3px;
+    border-radius: 5px;
+	}
+.forms caption{
+	font-family: "birch std";
+	color:	#7fff00;
+	text-shadow: 3px 3px 2px rgba(0,0,0,0.7);
+	size:24px;
+	font-size: 34px;
+    text-align: center;
+}
