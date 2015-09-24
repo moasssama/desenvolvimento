@@ -12,32 +12,39 @@
 		<form>
 			<fieldset>
 				<legend>Nova Tarefa</legend>
-						
-						Tarefa:
-						<input type="text" name="nome"/>
-						<label>
+						<label for="nome">
+							Tarefa:
+						</label>
+						<input type="text" id="nome"name="nome"/>
+						<label for ="descricao">
 							Descrição(opcional):
-							<textarea name="descricao"></textarea>
 						</label>
-						<label>
-						Prazo(opcional):
-						<input type = "text" name="prazo"/>
-						</label>
+							<textarea id="descricao"name="descricao"/></textarea>
+						<label for ="prazo">
+							Prazo(opcional):
+						</label >
+							<input type = "text" id="prazo"name="prazo"/>
 					<fieldset id="prioridade">
+						
+						
 						<legend>Prioridade:</legend>
-						<input type="radio" name="prioridade" value= "baixa" checked />
-						Baixa
-						<input type="radio" name="prioridade" value="media"/>
-						Média
-						<input type="radio" name="prioridade" value ="Alta"/>
-						Alta
+						
+						<label >Baixa
+							<input type="radio" id ="pr_baixa"name="prioridade" value= "baixa" checked />
 						</label>
+						<label for ="pr_media">Média
+							<input type="radio" id="pr_media"name="prioridade" value="media"/>
+						</label>
+						<label >Alta
+							<input type="radio" id="pr_alta"name="prioridade" value ="Alta"/>
+						</label>
+						
 					</fieldset>
 					<label>
 						Tarefa concluída:
 						<input type="checkbox" name="concluida" value="sim" />
 					</label>
-					<input type="submit" value="cadastrar"/>
+					<input class="botao"type="submit" value="cadastrar"/>
 			</fieldset>
 		</form>
 		</div>
@@ -45,10 +52,16 @@
 		<fieldset>
 			<legend>Tarefas</legend>
 			<table>
-				<caption>Tarefas</caption>
+				 <!-- <caption>Tarefas</caption> -->
+		<!-- 		<th> -->
 				<tr>
-					<td colspan="5">Tarefas</td>
+					<th>nome</th>
+					<th>descrição</th>
+					<th>prazo</th>
+					<th>prioridade</th>
+					<th>concluida</th>
 				</tr>
+				<!-- </th> -->
 				<?php	foreach ($lista_tarefas as $tarefas) :?>
 				<tr>
 					 <td> <?php	echo $tarefas['nome'];	?></td>
