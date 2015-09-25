@@ -30,19 +30,19 @@
 						<legend>Prioridade:</legend>
 						
 						<label >Baixa
-							<input type="radio" id ="pr_baixa"name="prioridade" value= "baixa" checked />
+							<input type="radio" id ="pr_baixa"name="prioridade" value= "1" checked />
 						</label>
 						<label for ="pr_media">Média
-							<input type="radio" id="pr_media"name="prioridade" value="media"/>
+							<input type="radio" id="pr_media"name="prioridade" value="2"/>
 						</label>
 						<label >Alta
-							<input type="radio" id="pr_alta"name="prioridade" value ="Alta"/>
+							<input type="radio" id="pr_alta"name="prioridade" value ="3"/>
 						</label>
 						
 					</fieldset>
 					<label>
 						Tarefa concluída:
-						<input type="checkbox" name="concluida" value="sim" />
+						<input type="checkbox" name="concluida" value="1" />
 					</label>
 					<input class="botao"type="submit" value="cadastrar"/>
 			</fieldset>
@@ -66,9 +66,9 @@
 				<tr>
 					 <td> <?php	echo $tarefas['nome'];	?></td>
 					 <td> <?php	echo $tarefas['descricao'];?></td>
-					 <td> <?php	echo $tarefas['prazo'];	?></td>
-					 <td><?php	echo $tarefas['prioridade'];?></td>
-					 <td><?php	echo $tarefas['concluida'];?></td>
+					 <td> <?php	echo traduz_data_paraexibir($tarefas['prazo']);?></td>
+					 <td><?php		echo traduz_prioridade ($tarefas['prioridade']);?></td>
+					 <td><?php		echo tradus_concluida($tarefas['concluida']);?></td>
 				 </tr>
 				<?php endforeach?>
 			</table>
