@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	 <link rel="stylesheet" href="css/style.css">
@@ -6,8 +6,7 @@
 	<title>Gerenciador de tarefas</title>
 </head>
 <body>
-	<div>
-	</div>
+	
 	<div id="centro"class="forms">
 		<form>
 			<fieldset>
@@ -23,7 +22,7 @@
 						<label for ="prazo">
 							Prazo(opcional):
 						</label >
-							<input type = "text" id="prazo"name="prazo"/>
+							<input type = "date" id="prazo"name="prazo"/>
 					<fieldset id="prioridade">
 						
 						
