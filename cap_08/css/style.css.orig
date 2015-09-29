@@ -26,7 +26,7 @@ background-color: #63b8ff;
 font-family: "georgia";
 border-radius:	0px;
 color:	#0000ff;
-margin:	0 auto 10px auto;
+margin:	auto;
 }
 
 table {
@@ -55,10 +55,13 @@ text-align:	center;
 border-radius:	3px;
 margin:	10px;
 padding:	5px;
+<<<<<<< HEAD
+=======
 
+
+>>>>>>> e2d9c8812d8746b1e00c551e445adf3fddd34c78
 }
 
-.forms  input {
 .forms  input {
 margin:	5px;
 color:	#0000ff
@@ -70,16 +73,13 @@ input[type=submit]{
 
 input[type=text],
 textarea {
-input[type=submit]{
-	float:	right;
-}
+<<<<<<< HEAD
+=======
 
-input[type=text],
-textarea {
+>>>>>>> e2d9c8812d8746b1e00c551e445adf3fddd34c78
     width: 100%;
     border: 1px solid #333;
     padding: 3px;
     border-radius: 5px;
 	max-width:	100%;
-}
 }
