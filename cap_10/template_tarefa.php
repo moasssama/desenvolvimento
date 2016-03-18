@@ -9,10 +9,10 @@
   <div class="form">
 	<h1><?php echo $tarefa['nome'];?></h1>
 	<p> <a href="tarefas.php">Voltar para lista de tarefas</a></p>
-	<p> <strong>Concluída</strong>
-	<?php echo traduz_concluida($tarefa['concluida']) ; ?>
-	</p> <strong>Descrição</strong>
-	<?php echo n12br $tarefa['descricao']; ?>
+	<p> <strong>ConcluÃ­da</strong>
+	<?php echo traduz_concluida($tarefa['concluida']); ?>
+	</p> <strong>DescriÃ§Ã£o</strong>
+	<?php echo nl2br ($tarefa['descricao']); ?>
 	<p><strong>Prazo</strong>
 	<?php echo traduz_data_paraexibir($tarefa['prazo']); ?>
 	</p>
@@ -21,7 +21,7 @@
 	</p>	
 	<h2>Anexos</h2>
 	<!-- lista de anexos -->
-	<!-- formulário para um novo anexo -->
+	<!-- formulÃ¡rio para um novo anexo -->
 	</div>
     
  

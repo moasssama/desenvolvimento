@@ -8,3 +8,4 @@ if (mysqli_connect_errno($conexao)) {
 echo "Problemas para conectar no banco. Verifique os dados!";
 die();
 }
+
