@@ -5,7 +5,7 @@
   <link rel="shortcut icon" href="css/index.ico">
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/style.css"/>
- 
+
  </head>
  <body>
   <div class="form">
@@ -25,7 +25,6 @@
 	<!-- lista de anexos -->
 	<!-- formulário para um novo anexo -->
 	</div>
-    
  
  </body>
 </html>
