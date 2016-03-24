@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	 <link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="css/index.ico">
+	<link rel="stylesheet" href="css/style.css">
 	<meta charset="utf-8">
 	<title>Gerenciador de tarefas</title>
 </head>

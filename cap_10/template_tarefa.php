@@ -2,8 +2,10 @@
 <html>
  <head>
   <title> Gerenciador de Tarefas </title>
+  <link rel="shortcut icon" href="css/index.ico">
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css"/>
+ 
  </head>
  <body>
   <div class="form">
