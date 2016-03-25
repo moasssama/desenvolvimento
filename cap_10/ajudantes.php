@@ -61,8 +61,6 @@ return true;
 	return false;
 }
 
-
-
 function validar_data($data)
 {
 $padrao = '/^[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4}$/';
