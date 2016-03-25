@@ -39,7 +39,6 @@ return $data_mysql;
 }
 
 
-
 function traduz_data_paraexibir($data){
 	if ($data == "" OR $data == "0000-00-00"){
 		return "";
