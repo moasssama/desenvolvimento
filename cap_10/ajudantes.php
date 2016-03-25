@@ -52,8 +52,6 @@ $dataexibir = "{$dados[2]}/{$dados[1]}/{$dados[0]}";
 return $dataexibir;
 }
 
-
-
 function tem_post(){
 	if (count($_POST) > 0){
 return true;
