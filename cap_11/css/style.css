@@ -1,0 +1,150 @@
+﻿*{
+margin: 	0px;
+padding:	0px;
+text-decoration:	none;
+list-style: 	none;
+box-sizing:	border-box;
+}
+
+
+label{
+margin: 0px 10px 5px 5px;
+display:inline;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+	max-width:100%;
+    border: 2px solid #333;
+    padding: 3px;
+    border-radius: 5px;
+	margin-bottom:10px;
+	margin-top: 5px;
+	display:block;
+	transition: border-color 1s linear 0.1s;
+	
+}
+
+
+input[type=text]:focus, textarea:focus {
+	background: #ffe; /* Fundo amarelo palha */
+	border: 2px solid #c30; /* Borda vermelha de 2px */
+	box-shadow: 10px 1px 1px rgba(0, 0, 0, 0.075) inset;
+	box-shadow: 0 0 5px red;
+}
+
+
+
+#outra{
+box-shadow: 5xp 5px 5px rgba(0,0,0,1);
+}
+
+table tbody tr:nth-child(odd) {
+background:	#EEE;
+}
+table tbody tr:nth-child(even) {
+background:	#FFF;
+}
+ 
+.forms{
+position:	relative;
+width:	70%;
+padding:	10px 10px 35px 10px;
+background-color: #63b8ff;
+font-family: "georgia";
+border-radius:	5px;
+color:	#0000ff;
+margin:	0 auto ;
+box-shadow: 0px 0px 6px rgba(0,0,0,0.5); 
+}
+ table,  td, th { 
+	border-collapse: collapse; 
+	padding:		3px;
+	margin:			10px;
+	
+}
+
+.forms input[type=submit]{
+float: right;
+margin:0px;
+color:red;
+}
+
+table {
+width: 		100%;
+margin:		0px;
+padding:	10px;
+border-radius:	10px;
+}
+table tr:last-child td:first-child {
+    -moz-border-radius-bottomleft:10px;
+    -webkit-border-bottom-left-radius:10px;
+    border-bottom-left-radius:10px
+}
+table tr:last-child td:last-child {
+    -moz-border-radius-bottomright:10px;
+    -webkit-border-bottom-right-radius:10px;
+    border-bottom-right-radius:10px
+}
+
+table th{
+
+color:		 #cae1ff;
+background-color: #0000ff;
+text-align:	center;
+
+}
+
+table td{/* 
+margin:	140px 500px 50px 5px;
+padding: 10px 10px 10px 20px; */
+text-align:	center;
+}
+
+
+.forms fieldset {
+
+border-radius:	3px;
+margin:	10px;
+padding:	5px;
+border-color:		#7fff00;
+
+}
+
+.forms legend {
+font-size:30px;
+color:	#7fff00;
+text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+.forms  input {
+margin-bottom: 310px:
+}
+
+#prioridade{
+	width:	300px;
+	
+}
+
+
+.forms caption{
+	font-family: "birch std";
+	color:	#7fff00;
+	text-shadow: 3px 3px 2px rgba(0,0,0,0.7);
+	size:24px;
+	font-size: 34px;
+    text-align: center;
+}
+
+.botao{
+	background-color: #00008b;
+	color: #ccc ;
+	padding:	5px;
+	border-radius: 10px;
+	font-size:18px;
+	}
+	
+.erro{
+color:#F00;
+}
